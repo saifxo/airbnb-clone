@@ -4,8 +4,8 @@ import { NextApiRequest, NextApiResponse } from 'next'
 
 
 export default function handler(
-  NextApiRequest,
-  NextApiResponse
+  req,
+  res
 ) {
-  res.status(200).json({ name: 'John Doe' })
+  res.status(200).json({ name: 'John Doe', age: 21 })
 }
