@@ -6,7 +6,7 @@ function Banner() {
     return (
         <Fade>
         <div className=''>
-            <div className='relative md:static h-[300px] sm:h-[350px] md:h-[400px] lg:h-[550px] xl:h-[650px]' >
+            <div className='relative lg:static h-[300px] sm:h-[350px] md:h-[400px] lg:h-[550px] xl:h-[650px]' >
                 <Image src={bg}
                     layout='fill'
                     objectFit='cover'
